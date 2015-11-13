@@ -38,7 +38,7 @@ Next, install *test-project-2* into *test-project-1*, saving it as a dependency:
     
 You'll see that *test-project-2* was correctly installed:
 
-    npm-install-error/proj1
+    npm-install-error/test-project-1
     ├── js-cookie@2.0.4
     ├── lodash@3.10.1
     ├── object-assign@4.0.1
@@ -69,7 +69,7 @@ Now, install *test-project-2* again:
     
 You'll see that dependencies these two modules share in common have been removed.
 
-    npm-install-error/proj1
+    npm-install-error/test-project-1
     ├── UNMET DEPENDENCY js-cookie@^2.0.4
     ├── lodash@3.10.1
     ├── UNMET DEPENDENCY object-assign@^4.0.1
